@@ -1,0 +1,304 @@
+* {
+    margin: 0px;
+}
+
+header {
+    margin: 0;
+    background-color: blue;
+    padding: 30px
+}
+
+.box1 {
+    color: white;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar {
+    display: inline-block;
+    color: white;
+    padding: 0px 8px;
+    margin-top: 10px;
+}
+
+.cp {
+    font-size: 90px;
+}
+
+.colour {
+    animation-name: colourful;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: left to right;
+    font-size: 60px;
+
+}
+
+@keyframes colourful {
+    0% {
+        color: rgb(17, 0, 255);
+    }
+
+    25% {
+        color: rgb(208, 255, 0);
+    }
+
+    50% {
+        color: rgb(0, 255, 21);
+    }
+
+    75% {
+        color: orange;
+    }
+
+    100% {
+        color: red;
+    }
+
+
+
+}
+
+
+
+#h1,
+#h3 {
+    margin-top:130px;
+    font-size: 60px;
+}
+#myskills{
+    font-size: 60px;
+    margin-top:50px;
+
+}
+
+#child1,
+#child2,
+#child3 {
+    background-color: rgb(33, 33, 235);
+    height: 150px;
+    width: 300px;
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.class1:hover {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    overflow-y: scroll;
+    overflow-y: auto;
+    overflow: hidden;
+
+
+
+    box-shadow: 6px 6px 6px plum, -6px -6px 6px plum;
+}
+
+#contact h3 {
+    background-color: #ffe4c4;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-form {
+    background-color: azure;
+    padding: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.submit-btn {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+}
+
+#button2 {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    text-align: right;
+    position: fixed;
+    right: 40px;
+    bottom: auto;
+    position: absolute;
+    z-index: 100;
+}
+
+.main-footer {
+    box-sizing: content-box;
+    background-color: rgb(245, 212, 164);
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    padding: 10px 0;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 8%;
+    height: 380px;
+    width: 780px;
+    margin-top: 60px;
+    margin-left: 400px;
+    background-size: cover
+}
+#project1{
+    animation-name: project1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+#project2{
+    animation-name: project2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    background-size: cover;
+}
+#project3{
+    animation-name: project3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes project1{ from{
+    background-image: url("https://content.instructables.com/F3B/E0EI/KWM44QKV/F3BE0EIKWM44QKV.jpg?auto=webp"); background-size: cover;}
+    to{
+        background-image: url("https://flet.dev/img/docs/calc-tutorial/calc-app.gif");background-size: cover
+    }
+    
+    
+}
+@keyframes project2{ from{
+    background-image: url("https://i.ytimg.com/vi/2Iid9rAo6sE/maxresdefault.jpg");}
+    to{
+        background-image: url("https://cdn.dribbble.com/userupload/43389151/file/original-99e1f0a4b177b776b36ec74af711c042.webp?format=webp&resize=400x300&vertical=center");
+    }}
+@keyframes project3{ from{
+    background-image: url("https://repository-images.githubusercontent.com/279903174/e6d970ed-8a4d-42fa-9f16-0b7efc34fb95");}
+    to{
+        background-image: url("https://i.ytimg.com/vi/Clll-ZcI2RY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBIKzRlddg3F10GXMTOZUpGjSN5Ww");
+    }}
+#bbkivines{
+    font-size: 50px;
+}
+.contact-form{
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px rgb(159, 159, 159), -3px -3px 3px rgb(159, 159, 159);
+
+
+
+}
+.submit-btn{
+    width: 300px;
+}
+#button2 {
+    background-color: #036fdb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    text-align: right;
+    position:fixed;
+    right: 40px;
+    bottom:auto;
+    position: fixed;
+    bottom: 10px;;
+    right: 10px;
+    z-index: 100;
+}
+.contact-form {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+}
+.submit-btn {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    width: 300px;
+}
+#profile-photo{
+    border-radius: 50%;
+}
+.colour{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-between;
+}
+.cp{
+    margin-top: 80px;
+}
